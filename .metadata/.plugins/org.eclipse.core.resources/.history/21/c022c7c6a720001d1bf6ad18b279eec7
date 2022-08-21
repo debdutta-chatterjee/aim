@@ -1,0 +1,16 @@
+package sm.api.util;
+
+import io.restassured.RestAssured;
+import io.restassured.specification.RequestSpecification;
+
+public class APIRequest {
+	
+	public String getRequest(String uri) {
+		
+		RequestSpecification objRequest= RestAssured.given()
+				.baseUri("https://www.soccermanager.com")
+				.header("content-type","application/json")
+				.header("cookie",cookie);
+	}
+	
+}

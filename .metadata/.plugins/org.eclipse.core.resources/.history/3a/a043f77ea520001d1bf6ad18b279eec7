@@ -1,0 +1,5 @@
+package sm.api.request;
+
+public class APIRequest {
+
+}

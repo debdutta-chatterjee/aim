@@ -1,0 +1,8 @@
+package sm.api.pojo;
+
+public class LeagueTypeId {
+
+	@JsonProperty("ENG") 
+    public ArrayList<int> eNG;
+
+}

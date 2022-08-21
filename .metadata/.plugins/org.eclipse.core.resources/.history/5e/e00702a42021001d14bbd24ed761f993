@@ -1,0 +1,62 @@
+package sm.api.test;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import io.restassured.response.Response;
+import sm.api.endpoints.SMEndpoints;
+import sm.api.pojo.DivisionData;
+import sm.api.pojo.GWSearchResponseJson;
+import sm.api.pojo.SearchOutputJson;
+import sm.api.util.APIRequest;
+import sm.api.util.WebServiceUtil;
+
+public class SMTestHelper {
+	
+	public static Response getGameDataResponse(int season,int clubsTaken,int offset){
+		
+		String endpoint = SMEndpoints.advGWSearch(season, clubsTaken, offset);
+		return APIRequest.getRequest(SMEndpoints.getBaseUri(), WebServiceUtil.getCookie(), endpoint);
+	}
+	
+	public static Response getSelectGW(int setupId){
+		
+		String endpoint = SMEndpoints.gwSelect(setupId);
+		return APIRequest.getRequest(SMEndpoints.getBaseUri(), WebServiceUtil.getCookie(), endpoint);
+	}
+	
+	
+	public static Response openClub(int clubId,int setupId){
+		
+		String endpoint = SMEndpoints.openClub(clubId,setupId);
+		return APIRequest.getRequest(SMEndpoints.getBaseUri(), WebServiceUtil.getCookie(), endpoint);
+	}
+	
+	public static SearchOutputJson getGWData(GWSearchResponseJson objGWResponse) {
+
+		//GW details
+		int setupId= objGWResponse.setupId;
+		String setupName=objGWResponse.setupName;
+		String selectedCountryId=objGWResponse.gwData.selectedCountryId;
+		String setupType=objGWResponse.gwData.getSetupType();
+		String economyLevelText=objGWResponse.gwData.getEconomyLevelText();
+		
+		//Club details
+		DivisionData div1Data=objGWResponse.gwData.clubData.getDivisionContainer().getDiv1Data().entrySet().iterator().next().getValue();
+				
+		List<Object> clubName=div1Data.getClubName();
+		List<Double> ClubBalance=div1Data.getClubBalance();
+		List<Double> ClubValue=div1Data.getClubValue();
+		List<Integer> playerCount=div1Data.getPlayerCount();
+		List<Integer> ClubAveRating=div1Data.getClubAveRating();
+		List<Integer> clubsTaken=div1Data.get;
+		List<Integer> CurrentSeasonNum=div1Data.getCurrentSeasonNum();
+		List<Integer> isManaged=div1Data.getIsManaged();
+		
+		return new SearchOutputJson(setupId, setupName, selectedCountryId, setupType,
+		economyLevelText,clubName,balance,value,playerCount,
+		avgRating,clubsTaken,season,isManaged);
+	}
+
+}

@@ -1,0 +1,7 @@
+package sm.api.endpoints;
+
+public class SMEndpoints {
+	
+	String baseUri= "https://www.soccermanager.com";
+	
+}

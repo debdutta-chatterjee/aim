@@ -1,0 +1,45 @@
+package sm.api.pojo;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@ToString @Getter @Setter
+public class DivisionData {
+	public int currentSeasonNum;
+    public int currentTurnNum;
+    public ArrayList<Integer> clubId;
+    public ArrayList<Integer> clubDataId;
+    public Map<String,List<String>> clubName;
+    public Map<String,List<String>> clubLogo;
+    @JsonProperty("ManagerName") 
+    public Map<String,List<String>> managerName;
+    @JsonProperty("ManagerRep") 
+    public Map<String,List<String>> managerRep;
+    @JsonProperty("ManagerRepData") 
+    public ArrayList<ManagerRepDatum> managerRepData;
+    @JsonProperty("ManagerPic") 
+    public ArrayList<String> managerPic;
+    public ArrayList<String> clubHomeColour1;
+    public ArrayList<String> countryId;
+    public Object clubsUnderOffer;
+    public Object clubsReserved;
+    public int totalClubCount;
+    public int isManagedTotal;
+    public ArrayList<Integer> isManaged;
+    public ArrayList<String> clubBalance;
+    public ArrayList<String> clubValue;
+    public ArrayList<Double> clubAveRating;
+    public ArrayList<Integer> playerCount;
+    public ArrayList<Integer> clubTopPlayers;
+    public ArrayList<ArrayList<String>> squadForename;
+    public ArrayList<ArrayList<String>> squadSurname;
+    public ArrayList<ArrayList<String>> squadRating;
+    public ArrayList<ArrayList<Integer>> squadValue;
+}

@@ -1,0 +1,12 @@
+package sm.api.endpoints;
+
+public class SMEndpoints {
+	
+	String baseUri= "https://www.soccermanager.com";
+	
+	public String advGWSearch(int season,int clubTaken,int offset) {
+		
+		return "/club-add-ajax.php?action=sgwadv&setuptypeid="+season+"&cdid=21&access=1&season=8&clubstaken=0&offset=20";
+	}
+	
+}

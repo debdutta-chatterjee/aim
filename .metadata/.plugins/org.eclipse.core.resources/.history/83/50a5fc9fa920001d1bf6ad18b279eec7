@@ -1,0 +1,12 @@
+package sm.api.util;
+
+public class WebServiceUtil {
+	
+	public <T> deserialize(T){retrun T;}
+
+	
+	public String getCookie() {
+		
+		
+	}
+}

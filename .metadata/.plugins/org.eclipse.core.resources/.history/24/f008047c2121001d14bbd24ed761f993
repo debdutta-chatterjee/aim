@@ -1,0 +1,29 @@
+package sm.api.pojo;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+import java.util.List;
+
+@Getter @Setter @ToString @AllArgsConstructor
+public class SearchOutputJson {
+	
+	//GW details
+	private int setupId;
+	private String setupName;
+	private String selectedCountryId;
+	private String setupType;
+	private String EconomyLevelText;
+	
+	//Club details
+	private List<String> clubName;
+	private List<Double> balance;
+	private List<Double> value;
+	private List<Integer> playerCount;
+	private List<Integer> clubAveRating;
+	int isManagedTotal;
+	int currentSeasonNum;
+	private List<Integer> isManaged;
+	
+}

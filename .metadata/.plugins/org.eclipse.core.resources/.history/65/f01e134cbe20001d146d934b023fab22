@@ -1,0 +1,8 @@
+package sm.api.pojo;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class Division{
+    @JsonProperty("ENG") 
+    public ArrayList<Integer> eNG;
+}

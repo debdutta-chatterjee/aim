@@ -1,0 +1,111 @@
+package sm.api.test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.http.HttpStatus;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.http.Cookie;
+import io.restassured.http.Method;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import sm.api.pojo.ClubSearchResponseJson;
+import sm.api.util.APIRequest;
+import sm.api.util.WebServiceUtil;
+
+public class SMServiceTest {
+	
+	@Test
+	public void test1() {
+		
+		Response response= SMTestHelper.getGameDataResponse(0,0,0);
+		Assert.assertEquals(response.statusCode(), HttpStatus.SC_OK,"Request Failed");
+		ClubSearchResponseJson objResponse=response.as(ClubSearchResponseJson.class);
+		
+		int stupId=objResponse.getSearchResults().get(0).getSetupId();
+		response= SMTestHelper.getSelectGW(stupId);
+		Assert.assertEquals(response.statusCode(), HttpStatus.SC_OK,"Request Failed");
+		
+		
+		//get game date
+		
+		//create gamedata adv search request
+		
+		//deserialize game data
+		
+		
+		
+		
+	}
+	
+	
+	@Test
+	public void getGameData() {
+		String cookie ="ga=GA1.2.1657188083.1650376235; __auc=a84a71b61804217db5b765f73e0; _fbp=fb.1.1650376311787.855847968; __utmz=57106600.1650376429.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not provided); cookieconsent_status=dismiss; __gads=ID=d8c344c7fc51cdf4-2217ebda5ad20060:T=1650429500:RT=1650429500:S=ALNI_Ma1bK1AQFv5IXqR0b5YcjWTNTWjhw; interface2=1; PHPSESSID=drruq1p09bl4l7j1l8gjp40proc6quvc; _gid=GA1.2.156364359.1661010275; __utma=57106600.1657188083.1650376235.1657462999.1661010282.11; __utmc=57106600; smuid=4617948; smlgin=1; __icuc7=4617948; __smvs=1660950000_-_en_EN_-_member; __asc=99fcd6b7182bbef231988f18635; __utmb=57106600.6.10.1661010282; freeCGW=true; arenaPopupLive4=true; arenaPopupCounter4=2";
+		String sid;
+		String sName;
+		String sClubsTaken;
+		
+			RequestSpecification objRequest= RestAssured.given()
+			.baseUri("https://www.soccermanager.com")
+			.header("content-type","application/json")
+			.header("cookie",cookie);
+				
+			
+		Response objResponse= objRequest.request(Method.GET,"/club-add-ajax.php?action=sgwname&setuptypeid=1&name=10758");
+			System.out.println(objResponse.getBody().asPrettyString());
+		JsonPath objJson=objResponse.jsonPath();
+		sid=objJson.getString("searchResults[0].setupId");
+		sName=objJson.getString("searchResults[0].setupName");
+		sClubsTaken=objJson.getString("searchResults[0].clubsTaken");
+		
+		
+		//Get Club Details
+		objRequest= RestAssured.given()
+				.baseUri("https://www.soccermanager.com")
+				.header("content-type","application/json")
+				.header("cookie",cookie);
+		objResponse= objRequest.request(Method.GET,"/club-add-ajax.php?action=setup&sid="+sid);
+		objJson=objResponse.jsonPath();
+		System.out.println(objResponse.asString());
+		
+		String selectedLeagueTypeId=objJson.get("gwData.selectedLeagueTypeId");
+		int size=objJson.getList("gwData.clubData.ENG."+selectedLeagueTypeId+".clubId").size();
+		
+		String str_clubId;
+		String str_clubName;
+		String str_isManaged;
+		String str_clubBalance;
+		String str_clubValue;
+		String str_clubAveRating;
+		String str_playerCount;
+		List<DataStore> lst_data= new ArrayList<DataStore>();
+		//https://www.soccermanager.com/club-add-ajax.php?action=sgwadv&setuptypeid=1&cdid=0&access=1&season=8&clubstaken=0
+		for(int i=0;i<size;i++) {
+			
+			str_clubId=objJson.get("gwData.clubData.ENG."+selectedLeagueTypeId+".clubId["+i+"]");
+			str_clubName=objJson.get("gwData.clubData.ENG."+selectedLeagueTypeId+".clubName["+i+"]");
+			str_isManaged=objJson.get("gwData.clubData.ENG."+selectedLeagueTypeId+".isManaged["+i+"]");
+			str_clubBalance=objJson.get("gwData.clubData.ENG."+selectedLeagueTypeId+".clubBalance["+i+"]");
+			str_clubValue=objJson.get("gwData.clubData.ENG."+selectedLeagueTypeId+".clubValue["+i+"]");
+			str_clubAveRating=objJson.get("gwData.clubData.ENG."+selectedLeagueTypeId+".clubAveRating["+i+"]");
+			str_playerCount=objJson.get("gwData.clubData.ENG."+selectedLeagueTypeId+".playerCount["+i+"]");
+			
+			
+			double balance=Double.parseDouble(str_clubBalance.substring(0, str_clubBalance.length()));
+			double value=Double.parseDouble(str_clubValue.substring(0, str_clubValue.length()));
+			double worth=balance+value;
+			
+			if(worth>=900) {
+				lst_data.add(new DataStore(str_clubId,str_clubName,str_isManaged,str_clubBalance,str_clubValue,str_clubAveRating,str_playerCount));
+			}
+		
+		}
+		
+	}
+	
+}

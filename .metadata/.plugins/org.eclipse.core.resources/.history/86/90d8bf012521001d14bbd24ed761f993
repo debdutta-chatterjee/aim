@@ -1,0 +1,51 @@
+package sm.api.util;
+
+public class GenericUtil {
+	
+	
+	public static double getAmount(String value) {
+		
+		value=  value.toUpperCase();
+		
+		int sign= 1;
+		
+		if(value.contains("-")) {
+			sign =-1;
+		}
+		
+		
+		if (value.contains("K")) {}
+		else if (value.contains("K")) {}
+		else if (value.contains("K")) {}
+		
+		if (totalValue.toUpperCase().contains("- ") && totalValue.toUpperCase().contains("K")) {
+			totalValue = String.valueOf(Double.parseDouble(totalValue.toUpperCase().replace("- ", "").replace("K", "")) * -1/1000);
+		}
+		if (balance.toUpperCase().contains("- ") && balance.toUpperCase().contains("K")) {
+			balance = String.valueOf(Double.parseDouble(balance.toUpperCase().replace("- ", "").replace("K", "")) * -1/1000);
+		}
+		
+
+		if (totalValue.toUpperCase().contains("B")) {
+			totalValue = String.valueOf(Double.parseDouble(totalValue.toUpperCase().replace("B", "")) * 1000);
+		}
+		if (balance.toUpperCase().contains("B")) {
+			balance = String.valueOf(Double.parseDouble(balance.toUpperCase().replace("B", "")) * 1000);
+		}
+		
+		if (totalValue.toUpperCase().contains("K")) {
+			totalValue = String.valueOf(Double.parseDouble(totalValue.toUpperCase().replace("K", "")) / 1000);
+		}
+		if (balance.toUpperCase().contains("K")) {
+			balance = String.valueOf(Double.parseDouble(balance.toUpperCase().replace("K", "")) / 1000);
+		}
+		
+		if (totalValue.toUpperCase().contains("- ")) {
+			totalValue = String.valueOf(Double.parseDouble(totalValue.toUpperCase().replace("- ", "").replace("M", "")) * -1);
+		}
+		if (balance.toUpperCase().contains("- ")) {
+			balance = String.valueOf(Double.parseDouble(balance.toUpperCase().replace("- ", "").replace("M", "")) * -1);
+		}
+	}
+	
+}

@@ -1,0 +1,6 @@
+package sm.api.pojo;
+
+public class Division{
+    @JsonProperty("ENG") 
+    public ArrayList<Integer> eNG;
+}

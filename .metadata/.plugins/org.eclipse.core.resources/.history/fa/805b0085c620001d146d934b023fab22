@@ -1,0 +1,25 @@
+package sm.api.pojo;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+import com.fasterxml.jackson.annotation.JsonAnyGetter;
+import com.fasterxml.jackson.annotation.JsonAnySetter;
+
+
+public class DivisionContainer{
+	
+	private Map<String, DivisionData> divData = new HashMap<>();
+
+	@JsonAnySetter
+    public void setUnknownField(String name, Object value) {
+		divData.put(name, (DivisionData) value);
+    }
+	
+	@JsonAnySetter
+    public void setUnknownField(String name, Object value) {
+		divData.put(name, (DivisionData) value);
+    }
+	
+}

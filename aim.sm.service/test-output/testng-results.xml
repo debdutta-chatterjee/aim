@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4931" started-at="2022-08-21T08:13:13Z" finished-at="2022-08-21T08:13:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4931" started-at="2022-08-21T08:13:13Z" finished-at="2022-08-21T08:13:18Z">
+      <class name="sm.api.test.SMServiceTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:sm.api.test.SMServiceTest@358c99f5]" name="test1" duration-ms="4905" started-at="2022-08-21T13:43:13Z" finished-at="2022-08-21T13:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- sm.api.test.SMServiceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

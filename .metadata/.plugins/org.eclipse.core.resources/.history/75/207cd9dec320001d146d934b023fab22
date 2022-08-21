@@ -1,0 +1,15 @@
+package sm.api.pojo;
+
+import com.fasterxml.jackson.annotation.JsonAnyGetter;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@ToString @Getter @Setter
+public class ClubData{
+    //@JsonProperty("ENG")
+	@JsonAnyGetter
+    public DivisionData divisionData;
+}
