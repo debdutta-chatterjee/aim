@@ -2277,3 +2277,813 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2022-08-21 15:20:18,363 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
 2022-08-21 15:20:18,363 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-08-21 15:20:18,363 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 11:30:51,736 [Worker-6: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-08-27 11:30:54,423 [Worker-6: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2022-08-27 11:31:29,078 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:31:29,079 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 11:31:29,082 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:31:29,082 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 11:34:03,838 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:34:03,838 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 11:34:03,840 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:34:03,840 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 11:34:20,831 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:34:20,831 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 11:34:20,833 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:34:20,833 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 11:51:17,834 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:51:17,835 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 11:51:17,837 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:51:17,837 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 11:51:26,152 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:51:26,153 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 11:51:26,155 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:51:26,155 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 11:51:53,856 [Worker-15: Resolving model org.eclipse.recommenders:index::zip:0.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-08-27 11:51:57,367 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:51:57,367 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 11:51:57,368 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:51:57,368 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 11:53:53,647 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:53:53,647 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 11:53:53,649 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:53:53,649 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 11:54:08,396 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:54:08,396 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 11:54:08,400 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:54:08,400 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 11:54:29,055 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:54:29,055 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 11:54:29,056 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:54:29,056 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 11:54:38,150 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:54:38,150 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 11:54:38,151 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:54:38,152 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 11:58:19,860 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:58:19,860 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 11:58:19,861 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:58:19,862 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 11:58:41,210 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:58:41,210 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 11:58:41,211 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:58:41,211 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 11:59:20,723 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:59:20,723 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 11:59:20,724 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:59:20,724 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 11:59:30,612 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:59:30,613 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 11:59:30,614 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 11:59:30,614 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:03:43,353 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:03:43,354 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:03:43,355 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:03:43,355 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:04:05,912 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:04:05,912 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:04:05,916 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:04:05,916 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:04:31,127 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:04:31,127 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:04:31,128 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:04:31,129 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:04:35,508 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:04:35,508 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:04:35,509 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:04:35,510 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:04:52,109 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:04:52,109 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:04:52,110 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:04:52,111 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:04:59,898 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:04:59,899 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:04:59,900 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:04:59,900 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:05:11,189 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:05:11,190 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:05:11,191 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:05:11,191 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:12:04,625 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:12:04,626 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:12:04,627 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:12:04,628 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:12:23,599 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:12:23,599 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:12:23,600 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:12:23,600 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:12:25,262 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:12:25,262 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:12:25,263 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:12:25,264 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:12:38,845 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:12:38,846 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:12:38,847 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:12:38,847 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:12:47,782 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:12:47,783 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:12:47,784 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:12:47,784 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:18:10,449 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:18:10,476 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:18:10,478 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:18:10,478 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:18:29,549 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:18:29,550 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:18:29,551 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:18:29,551 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:19:14,945 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:19:14,945 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:19:14,946 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:19:14,946 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:19:59,905 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:19:59,905 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:19:59,906 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:19:59,906 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:20:28,886 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:20:28,886 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:20:28,888 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:20:28,888 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:22:23,292 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:22:23,293 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:22:23,294 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:22:23,294 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:22:32,327 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:22:32,328 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:22:32,329 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:22:32,330 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:22:36,218 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:22:36,218 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:22:36,219 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:22:36,219 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:23:21,238 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:23:21,238 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:23:21,239 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:23:21,239 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:23:40,066 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:23:40,066 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:23:40,067 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:23:40,068 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:25:33,130 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:25:33,131 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:25:33,131 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:25:33,132 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:25:47,136 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:25:47,136 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:25:47,137 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:25:47,137 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:26:33,944 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:26:33,945 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:26:33,950 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:26:33,951 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:26:52,695 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:26:52,696 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:26:52,697 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:26:52,697 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:27:05,934 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:27:05,934 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:27:05,936 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:27:05,936 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:28:58,395 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:28:58,395 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:28:58,396 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:28:58,397 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:29:03,485 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:29:03,486 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:29:03,487 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:29:03,487 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:29:08,746 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:29:08,746 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:29:08,747 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:29:08,747 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:29:23,897 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:29:23,898 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:29:23,901 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:29:23,901 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:30:14,835 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:30:14,835 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:30:14,836 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:30:14,836 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:30:24,551 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:30:24,552 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:30:24,553 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:30:24,553 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:30:29,365 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:30:29,366 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:30:29,366 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:30:29,367 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:31:00,412 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:31:00,412 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:31:00,413 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:31:00,413 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:32:44,498 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:32:44,498 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:32:44,500 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:32:44,500 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:33:02,905 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:33:02,905 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:33:02,906 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:33:02,906 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:33:09,004 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:33:09,004 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:33:09,005 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:33:09,005 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:33:24,049 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:33:24,049 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:33:24,050 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:33:24,050 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:33:28,979 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:33:28,979 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:33:28,981 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:33:28,981 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:33:49,658 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:33:49,659 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:33:49,659 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:33:49,659 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:34:18,266 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:34:18,266 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:34:18,271 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:34:18,271 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:34:49,151 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:34:49,151 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:34:49,152 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:34:49,152 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:36:29,772 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:36:29,772 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:36:29,774 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:36:29,774 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:41:44,799 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:41:44,800 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:41:44,801 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:41:44,801 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:42:18,367 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:42:18,368 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:42:18,369 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:42:18,370 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:43:17,862 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:43:17,862 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:43:17,863 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:43:17,864 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:43:35,371 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:43:35,371 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:43:35,372 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:43:35,372 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:43:44,304 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:43:44,304 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:43:44,305 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:43:44,305 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:43:58,803 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:43:58,803 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:43:58,805 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:43:58,805 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:44:24,913 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:44:24,913 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:44:24,914 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:44:24,914 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:48:00,007 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:48:00,007 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:48:00,008 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:48:00,009 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:48:04,233 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:48:04,233 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:48:04,234 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:48:04,235 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:48:10,366 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:48:10,366 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:48:10,367 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:48:10,367 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:48:15,979 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:48:15,979 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:48:15,980 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:48:15,980 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:48:31,641 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:48:31,641 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:48:31,642 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:48:31,643 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:48:50,533 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:48:50,533 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:48:50,534 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:48:50,535 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:49:01,953 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:49:01,953 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:49:01,953 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:49:01,953 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:49:06,269 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:49:06,269 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:49:06,270 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:49:06,270 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:49:24,438 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:49:24,438 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:49:24,439 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:49:24,439 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:50:27,458 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:50:27,459 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:50:27,460 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:50:27,460 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:50:42,161 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:50:42,162 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:50:42,163 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:50:42,163 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:50:51,520 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:50:51,521 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:50:51,522 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:50:51,522 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:51:20,197 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:51:20,198 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:51:20,199 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:51:20,199 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:51:32,554 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:51:32,554 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:51:32,555 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:51:32,556 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:51:55,875 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:51:55,875 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:51:55,877 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:51:55,877 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:51:57,760 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:51:57,760 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:51:57,761 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:51:57,761 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:52:02,141 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:52:02,141 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:52:02,142 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:52:02,143 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:52:06,224 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:52:06,225 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:52:06,225 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:52:06,225 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:52:48,214 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:52:48,214 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:52:48,215 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:52:48,215 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:52:58,448 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:52:58,448 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:52:58,449 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:52:58,449 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:53:20,755 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:53:20,755 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:53:20,755 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:53:20,756 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:53:30,263 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:53:30,263 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:53:30,265 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:53:30,265 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:53:39,357 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:53:39,358 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:53:39,358 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:53:39,359 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:53:44,950 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:53:44,950 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:53:44,951 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:53:44,951 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:54:55,022 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:54:55,023 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:54:55,023 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:54:55,024 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:55:14,258 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:55:14,259 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:55:14,260 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:55:14,260 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:56:05,699 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:56:05,699 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:56:05,700 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:56:05,700 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:56:10,490 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:56:10,490 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:56:10,491 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:56:10,491 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:56:21,229 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:56:21,229 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:56:21,230 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:56:21,230 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:56:28,326 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:56:28,326 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:56:28,327 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:56:28,327 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:57:15,177 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:57:15,177 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:57:15,178 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:57:15,178 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:57:18,388 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:57:18,388 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:57:18,389 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:57:18,389 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:57:24,193 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:57:24,193 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:57:24,194 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:57:24,194 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:57:43,663 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:57:43,663 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:57:43,664 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:57:43,664 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:57:53,336 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:57:53,337 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:57:53,337 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:57:53,338 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:57:57,766 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:57:57,766 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:57:57,767 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:57:57,767 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 12:58:42,043 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:58:42,043 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 12:58:42,044 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 12:58:42,044 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:00:01,053 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:00:01,054 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:00:01,054 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:00:01,054 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:01:42,324 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:01:42,324 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:01:42,324 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:01:42,324 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:01:46,812 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:01:46,812 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:01:46,812 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:01:46,812 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:01:56,070 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:01:56,070 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:01:56,070 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:01:56,070 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:02:15,451 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:02:15,451 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:02:15,451 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:02:15,451 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:02:19,300 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:02:19,300 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:02:19,300 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:02:19,300 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:02:55,784 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:02:55,784 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:02:55,784 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:02:55,784 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:02:59,791 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:02:59,791 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:02:59,791 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:02:59,791 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:03:03,267 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:03:03,267 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:03:03,267 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:03:03,267 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:03:09,640 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:03:09,640 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:03:09,640 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:03:09,640 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:03:20,231 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:03:20,231 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:03:20,232 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:03:20,232 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:06:13,270 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:06:13,270 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:06:13,270 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:06:13,270 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:06:22,597 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:06:22,597 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:06:22,597 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:06:22,597 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:06:58,934 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:06:58,934 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:06:58,934 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:06:58,934 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:08:37,388 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:08:37,388 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:08:37,388 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:08:37,388 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:10:14,124 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:10:14,124 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:10:14,124 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:10:14,124 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:13:36,042 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:13:36,042 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:13:36,042 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:13:36,042 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:14:40,014 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:14:40,014 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:14:40,014 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:14:40,014 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:15:05,209 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:15:05,209 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:15:05,210 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:15:05,210 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:16:21,868 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:16:21,869 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:16:21,869 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:16:21,869 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:17:45,856 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:17:45,856 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:17:45,857 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:17:45,857 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:18:14,320 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:18:14,320 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:18:14,321 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:18:14,321 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:18:44,564 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:18:44,564 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:18:44,564 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:18:44,564 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:20:07,027 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:20:07,027 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:20:07,028 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:20:07,028 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:20:13,332 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:20:13,332 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:20:13,333 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:20:13,334 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:20:24,293 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:20:24,293 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:20:24,294 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:20:24,295 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:20:25,425 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:20:25,425 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:20:25,425 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:20:25,425 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:20:37,926 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:20:37,926 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:20:37,926 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:20:37,928 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:21:29,433 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:21:29,433 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:21:29,433 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:21:29,433 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:22:05,848 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:22:05,848 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:22:05,850 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:22:05,850 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:23:11,907 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:23:11,907 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:23:11,907 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:23:11,907 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:23:29,194 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:23:29,194 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:23:29,195 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:23:29,196 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:23:49,357 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:23:49,357 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:23:49,357 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:23:49,357 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:25:00,085 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:25:00,085 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:25:00,085 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:25:00,085 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:25:15,650 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:25:15,650 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:25:15,651 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:25:15,651 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:25:44,387 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:25:44,387 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:25:44,387 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:25:44,387 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:26:12,856 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:26:12,856 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:26:12,856 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:26:12,856 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:26:48,009 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:26:48,009 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:26:48,010 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:26:48,011 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:27:20,341 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:27:20,341 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:27:20,341 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:27:20,341 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:27:32,297 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:27:32,297 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:27:32,297 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:27:32,297 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:27:51,426 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:27:51,426 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:27:51,426 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:27:51,426 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:31:09,270 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:31:09,270 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:31:09,273 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:31:09,273 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:31:14,671 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:31:14,671 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:31:14,677 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:31:14,677 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:32:14,483 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:32:14,483 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:32:14,483 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:32:14,483 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:32:21,833 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:32:21,833 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:32:21,833 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:32:21,833 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:32:50,668 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:32:50,668 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:32:50,668 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:32:50,668 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:33:43,653 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:33:43,653 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:33:43,653 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:33:43,653 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:34:39,984 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:34:39,989 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:34:39,990 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:34:39,990 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:34:43,124 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:34:43,124 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:34:43,124 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:34:43,124 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:34:51,904 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:34:51,904 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:34:51,904 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:34:51,904 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:34:59,013 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:34:59,013 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:34:59,014 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:34:59,014 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:35:12,446 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:35:12,446 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:35:12,446 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:35:12,446 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:35:21,977 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:35:21,978 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:35:21,978 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:35:21,978 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:35:44,074 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:35:44,074 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:35:44,074 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:35:44,074 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:36:02,085 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:36:02,086 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:36:02,086 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:36:02,086 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:36:05,628 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:36:05,628 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:36:05,629 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:36:05,629 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:39:08,019 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:39:08,019 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:39:08,020 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:39:08,020 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:39:12,712 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:39:12,712 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:39:12,713 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:39:12,713 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:39:33,962 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:39:33,962 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:39:33,962 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:39:33,962 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:39:40,430 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:39:40,430 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:39:40,430 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:39:40,430 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:39:50,651 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:39:50,651 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:39:50,651 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:39:50,651 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:40:15,691 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:40:15,691 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:40:15,691 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:40:15,691 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:40:30,506 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:40:30,506 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:40:30,506 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:40:30,506 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:40:37,995 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:40:37,995 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:40:37,995 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:40:37,995 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:41:46,440 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:41:46,440 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:41:46,440 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:41:46,440 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:42:23,140 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:42:23,140 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:42:23,140 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:42:23,140 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:42:30,052 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:42:30,052 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:42:30,052 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:42:30,052 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:43:22,917 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:43:22,917 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:43:22,917 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:43:22,917 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:46:52,689 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:46:52,690 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:46:52,690 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:46:52,690 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:46:58,260 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:46:58,260 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:46:58,262 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:46:58,263 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:47:10,033 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:47:10,033 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:47:10,033 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:47:10,033 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:47:15,495 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:47:15,495 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:47:15,495 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:47:15,495 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:47:24,547 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:47:24,548 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:47:24,548 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:47:24,548 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:49:33,756 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:49:33,756 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:49:33,756 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:49:33,756 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:49:58,200 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:49:58,200 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:49:58,200 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:49:58,200 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:50:49,629 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:50:49,629 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:50:49,630 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:50:49,630 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:50:57,247 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:50:57,247 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:50:57,247 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:50:57,247 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:51:14,794 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:51:14,794 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:51:14,794 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:51:14,794 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:51:54,724 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:51:54,724 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:51:54,724 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:51:54,724 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:52:31,732 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:52:31,732 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:52:31,734 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:52:31,734 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:52:49,729 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:52:49,729 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:52:49,729 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:52:49,729 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:53:49,104 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:53:49,104 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:53:49,104 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:53:49,104 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:53:55,430 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:53:55,430 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:53:55,431 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:53:55,432 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:54:14,286 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:54:14,297 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:54:14,298 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:54:14,298 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:55:09,177 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:55:09,177 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:55:09,177 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:55:09,177 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:56:31,468 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:56:31,468 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:56:31,468 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:56:31,468 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:56:43,790 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:56:43,790 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:56:43,792 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:56:43,792 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 13:58:19,793 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:58:19,793 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 13:58:19,793 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 13:58:19,794 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 14:00:32,215 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 14:00:32,215 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 14:00:32,215 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 14:00:32,216 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 14:05:56,667 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 14:05:56,667 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 14:05:56,667 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 14:05:56,667 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 14:07:01,082 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 14:07:01,082 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 14:07:01,129 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 14:07:01,129 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 14:08:02,258 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 14:08:02,258 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 14:08:02,258 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 14:08:02,258 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 14:15:34,370 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 14:15:34,370 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 14:15:34,370 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 14:15:34,370 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 15:04:40,972 [Worker-84: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 15:04:40,972 [Worker-84: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 15:04:40,972 [Worker-84: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 15:04:40,972 [Worker-84: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources
+2022-08-27 15:04:45,969 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 15:04:45,969 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\main\resources
+2022-08-27 15:04:45,969 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-27 15:04:45,969 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GIT_REPOSITORY\Aim_workspace\aim.sm.service\src\test\resources

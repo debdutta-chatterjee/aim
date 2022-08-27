@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4931" started-at="2022-08-21T08:13:13Z" finished-at="2022-08-21T08:13:18Z">
+  <suite name="Default suite" duration-ms="98213" started-at="2022-08-27T08:45:55Z" finished-at="2022-08-27T08:47:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4931" started-at="2022-08-21T08:13:13Z" finished-at="2022-08-21T08:13:18Z">
+    <test name="Default test" duration-ms="98213" started-at="2022-08-27T08:45:55Z" finished-at="2022-08-27T08:47:34Z">
       <class name="sm.api.test.SMServiceTest">
-        <test-method status="PASS" signature="test1()[pri:0, instance:sm.api.test.SMServiceTest@358c99f5]" name="test1" duration-ms="4905" started-at="2022-08-21T13:43:13Z" finished-at="2022-08-21T13:43:18Z">
+        <test-method status="PASS" signature="storeAllGameworld()[pri:0, instance:sm.api.test.SMServiceTest@358c99f5]" name="storeAllGameworld" duration-ms="98198" started-at="2022-08-27T14:15:55Z" finished-at="2022-08-27T14:17:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
+        </test-method> <!-- storeAllGameworld -->
       </class> <!-- sm.api.test.SMServiceTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

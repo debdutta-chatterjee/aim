@@ -5,7 +5,7 @@
     <classes>
       <class name="sm.api.test.SMServiceTest">
         <methods>
-          <include name="test1"/>
+          <include name="storeAllGameworld"/>
         </methods>
       </class> <!-- sm.api.test.SMServiceTest -->
     </classes>

@@ -1,9 +1,17 @@
 package sm.api.test;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.text.ParseException;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
+
+import com.fasterxml.jackson.core.exc.StreamReadException;
+import com.fasterxml.jackson.databind.DatabindException;
 
 import io.restassured.response.Response;
 import sm.api.endpoints.SMEndpoints;
@@ -13,6 +21,7 @@ import sm.api.pojo.SearchOutputJson;
 import sm.api.util.APIRequest;
 import sm.api.util.GenericUtil;
 import sm.api.util.WebServiceUtil;
+import sm.files.util.FileActions;
 
 public class SMTestHelper {
 	
@@ -59,6 +68,25 @@ public class SMTestHelper {
 		return new SearchOutputJson(setupId, setupName, selectedCountryId, setupType,
 		economyLevelText,clubName,clubBalance,clubValue,playerCount,
 		clubAveRating,isManagedTotal,currentSeasonNum,isManaged);
+	}
+	
+	
+	public static String writeJson(String key,Collection objCollections) {
+		try {
+			return FileActions.writeJsonToFile(key,WebServiceUtil.getJsonObjet(key,objCollections));
+		} catch (ParseException | IOException e) {
+			e.printStackTrace();
+			return null;
+		}
+	}
+	
+	public static <T> T deserializeJson(String path, Class<T> classType) {
+		try {
+			return WebServiceUtil.deserialize(path, classType);
+		} catch (IOException e) {
+			e.printStackTrace();
+			return null;
+		}
 	}
 
 }

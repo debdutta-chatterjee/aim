@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;FileActions.java&apos; to &apos;aim.sm.service/src/test/java/sm.files.util&apos;&#x0D;&#x0A;- Original project: &apos;aim.sm.service&apos;&#x0D;&#x0A;- Destination element: &apos;aim.sm.service/src/test/java/sm.files.util&apos;&#x0D;&#x0A;- Original element: &apos;sm.Util.FileActions.java&apos;" description="Copy compilation unit" destination="/src\/test\/java&lt;sm.files.util" element1="/src\/main\/java&lt;sm.Util{FileActions.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1661582909165" units="1" version="1.0"/>
+</session>
