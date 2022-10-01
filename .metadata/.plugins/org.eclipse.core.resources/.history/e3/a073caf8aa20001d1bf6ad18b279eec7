@@ -1,5 +1,0 @@
-package HTTPResponse;
-
-public enum ResponseCode {
-
-}

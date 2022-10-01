@@ -1,0 +1,64 @@
+package sm.api.pojo;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@Getter @Setter @ToString @AllArgsConstructor
+public class SearchOutputJson {
+	
+	//GW details
+	private int setupId;
+	private String setupName;
+	private String selectedCountryId;
+	private String setupType;
+	private String EconomyLevelText;
+	
+	//Club details
+	private List<String> clubName;
+	private List<Double> clubBalance;
+	private List<Double> clubValue;
+	private List<Integer> playerCount;
+	private List<Double> clubAveRating;
+	int isManagedTotal;
+	int currentSeasonNum;
+	private List<Integer> isManaged;
+	
+	
+	public String display(int index) {
+		String strOutput = "setupId"+setupId +
+				",   setupName"+setupName +
+				",   setupType"+setupType +
+				",   season"+currentSeasonNum +
+				",   Managed-"+isManagedTotal +
+				",   clubName-"+clubName.get(index) +
+				",   clubBalance-"+clubBalance.get(index) +
+				",   clubValue-"+clubValue.get(index) +
+				",   playerCount-"+playerCount.get(index) +
+				",   clubAveRating-"+clubAveRating.get(index);
+				
+		System.out.print(strOutput);
+		System.out.println("=======================================================================");
+		return strOutput;
+	}
+	
+	public void displayAll(List<Integer> list) {
+		list.forEach(index -> this.display(index));
+	}
+	
+	public List<Integer> getIndex(double thresold) {
+		int index=0;
+		List<Integer> indexList= new ArrayList<>();
+		for(double money:clubBalance) {
+			if(money+clubValue.get(index)>thresold) {
+				indexList.add(index);
+			}
+			index++;
+		}
+		return indexList;
+	}
+}

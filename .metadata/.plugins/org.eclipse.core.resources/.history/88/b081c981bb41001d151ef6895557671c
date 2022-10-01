@@ -1,0 +1,3 @@
+gw_records=output/gw_records-<DTS>.json
+club_records=output/club_records-<DTS>.json
+output=output/output_records-<DTS>.txt

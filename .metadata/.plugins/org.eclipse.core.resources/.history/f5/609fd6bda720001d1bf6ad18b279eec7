@@ -1,7 +1,0 @@
-package sm.api.util;
-
-public class APIRequest {
-	
-	public String getRequest(String uri) => "";
-	
-}

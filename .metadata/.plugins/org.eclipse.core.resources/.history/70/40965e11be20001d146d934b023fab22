@@ -1,6 +1,0 @@
-package sm.api.pojo;
-
-public class ClubData{
-    @JsonProperty("ENG") 
-    public ENG eNG;
-}

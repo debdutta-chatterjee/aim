@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="98213" started-at="2022-08-27T08:45:55Z" finished-at="2022-08-27T08:47:34Z">
+  <suite name="Default suite" duration-ms="3036346" started-at="2022-10-01T19:54:20Z" finished-at="2022-10-01T20:44:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="98213" started-at="2022-08-27T08:45:55Z" finished-at="2022-08-27T08:47:34Z">
+    <test name="Default test" duration-ms="3036346" started-at="2022-10-01T19:54:20Z" finished-at="2022-10-01T20:44:57Z">
       <class name="sm.api.test.SMServiceTest">
-        <test-method status="PASS" signature="storeAllGameworld()[pri:0, instance:sm.api.test.SMServiceTest@358c99f5]" name="storeAllGameworld" duration-ms="98198" started-at="2022-08-27T14:15:55Z" finished-at="2022-08-27T14:17:34Z">
+        <test-method status="PASS" signature="parseGWRecords()[pri:0, instance:sm.api.test.SMServiceTest@48524010]" name="parseGWRecords" duration-ms="297" started-at="2022-10-02T01:24:20Z" finished-at="2022-10-02T01:24:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- storeAllGameworld -->
+        </test-method> <!-- parseGWRecords -->
+        <test-method status="PASS" signature="GetClubs()[pri:0, instance:sm.api.test.SMServiceTest@48524010]" name="GetClubs" duration-ms="3036018" started-at="2022-10-02T01:24:21Z" finished-at="2022-10-02T02:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetClubs -->
       </class> <!-- sm.api.test.SMServiceTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

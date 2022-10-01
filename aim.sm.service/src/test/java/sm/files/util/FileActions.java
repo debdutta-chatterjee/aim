@@ -47,16 +47,17 @@ public class FileActions {
 		return String.valueOf(Calendar.getInstance().toInstant().toEpochMilli());
 	}
 	
-	public void writeStringToFile(List<String> list)  {
+	public static void writeStringToFile(String key,List<String> list)  {
 		try {
 			System.out.println("Adding"+list.size()+" records.");
-		FileWriter writer = new FileWriter("output/outputrecords.csv",true); 
+			String path=System.getProperty("user.dir")+"/"+FileActions.getFilePath(key).replace("<DTS>", FileActions.getDTS());
+		FileWriter writer = new FileWriter(path,true); 
 		for(String str: list) {
 		  
 			writer.write(str + System.lineSeparator()); 
 		}
 		writer.close();}
-		catch (IOException e) {
+		catch (IOException | ParseException e) {
 			e.printStackTrace();
 		}
 	}

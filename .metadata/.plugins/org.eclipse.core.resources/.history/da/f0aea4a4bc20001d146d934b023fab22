@@ -1,8 +1,0 @@
-package sm.api.pojo;
-
-public class ManagerRepDatum {
-	@JsonProperty("LevelText") 
-    public String levelText;
-    @JsonProperty("Badge") 
-    public String badge;
-}

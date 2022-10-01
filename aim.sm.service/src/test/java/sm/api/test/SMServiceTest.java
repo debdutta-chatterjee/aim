@@ -1,7 +1,9 @@
 package sm.api.test;
 
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -20,8 +22,9 @@ import sm.api.pojo.SearchOutputJson;
 public class SMServiceTest {
 	
 	static String path;
+	GWRecordsJson objGWRecords=null;
 	
-	@Test
+	@Test(enabled=false)
 	public void storeAllGameworld() {
 		
 		Set<Integer> setSetupId = new HashSet<Integer>();
@@ -41,27 +44,29 @@ public class SMServiceTest {
 		
 		System.out.println("Record Count-"+setSetupId.size());
 		path=SMTestHelper.writeJson("gw_records", setSetupId);
+		System.out.println("Setup Ids stored at- "+path);
 	}
 	
 	
-	@Test(enabled=false)
+	@Test(priority=1)
 	public void parseGWRecords() {
-		path="./output/gw_records-2022-08-27_132148.json";
-		GWRecordsJson objGWRecords=SMTestHelper.deserializeJson(path, GWRecordsJson.class);
+		path="./output/gw_records-2022-10-01_214741.json";
+		objGWRecords=SMTestHelper.deserializeJson(path, GWRecordsJson.class);
 
-		System.out.println(objGWRecords.getGwrecord().size());
+		System.out.println("GW size-"+objGWRecords.getGwrecord().size());
 		
-		for(int setupId:objGWRecords.getGwrecord()) {
-			
-			System.out.println(setupId);
-		}
+//		for(int setupId:objGWRecords.getGwrecord()) {
+//			
+//			System.out.println(setupId);
+//		}
 		
 	}
 	
 	
 	
 	@Test(enabled=false)
-	public void test1() {
+	@Deprecated
+	public void GetClubs_old() {
 		
 		Set<SearchOutputJson> outputSet = new HashSet<SearchOutputJson>();
 		
@@ -84,9 +89,60 @@ public class SMServiceTest {
 		
 	}
 	
+	@Test(priority=2)
+	public void GetClubs() {
+		
+		Set<SearchOutputJson> outputSet = new HashSet<SearchOutputJson>();
+		List<String> resultList= new ArrayList<>();
+		Response response=null;
+		double thresold= 1200;
+		int countTracker=0;
+		SearchOutputJson output =null;
+		
+			for(int setupId:objGWRecords.getGwrecord()) {
+				System.out.print(++countTracker);
+				try {
+				response= SMTestHelper.getSelectGW(setupId); 
+				//System.out.println(response.asString());
+				Assert.assertEquals(response.statusCode(), HttpStatus.SC_OK,"Request Failed");
+				
+				GWSearchResponseJson objGWResponse=response.as(GWSearchResponseJson.class);			
+				output = SMTestHelper.getGWData(objGWResponse);
+				outputSet.add(output);
+				//System.out.println("Scanned-"+setupId);
+				output.displayAll(output.getIndex(thresold));
+				
+			}catch (Exception e) {System.out.println("Skipped-"+setupId);}
+		} 
+		
+			System.out.println("Record Count-"+outputSet.size());
+			path=SMTestHelper.writeJson("club_records", outputSet);
+			System.out.println("outputSets stored at- "+path);
+	}
+	
+	@Test(priority=2)
+	public void FilterClubs() {
+		
+		Set<SearchOutputJson> outputSet = new HashSet<SearchOutputJson>();
+		List<String> resultList= new ArrayList<>();
+		Response response=null;
+		double thresold= 1200;
+		int countTracker=0;
+		SearchOutputJson output =null;
+		
+		path="./output/club_records-2022-10-02_021457.json";
+		List<GWSearchResponseJson> lstGWRecords=SMTestHelper.deserializeJson(path, List<GWSearchResponseJson.class);
+		
+			for(GWSearchResponseJson objGWResponse:objGWRecords.getGwrecord()) {
+				output = SMTestHelper.getGWData(objGWResponse);
+				outputSet.add(output);
+				//System.out.println("Scanned-"+setupId);
+				output.displayAll(output.getIndex(thresold));
+		} 
+	}
 	
 	@Test(enabled=false)
-	public void test2() {
+	public void OpenClub() {
 		
 		Response response= SMTestHelper.openClub(0,0);
 		Assert.assertEquals(response.statusCode(), HttpStatus.SC_OK,"Request Failed");

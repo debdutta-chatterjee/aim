@@ -4,13 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-@ToString @Getter @Setter
+@ToString @Getter @Setter @JsonIgnoreProperties("ManagerRepData")
 public class DivisionData {
 	private int currentSeasonNum;
     private int currentTurnNum;
@@ -22,8 +24,9 @@ public class DivisionData {
     private ArrayList<Object> managerName;
     @JsonProperty("ManagerRep") 
     private ArrayList<Object> managerRep;
-    @JsonProperty("ManagerRepData") 
-    private ArrayList<ManagerRepDatum> managerRepData;
+    //@JsonProperty("ManagerRepData") 
+    //@JsonIgnore @JsonIgnoreProperties("ManagerRepData")
+    //private ArrayList<ManagerRepDatum> managerRepData;
     @JsonProperty("ManagerPic") 
     private ArrayList<Object> managerPic;
     private ArrayList<Object> clubHomeColour1;
