@@ -5,7 +5,7 @@
     <classes>
       <class name="sm.api.test.SMServiceTest">
         <methods>
-          <include name="storeAllGameworld"/>
+          <include name="FilterClubs"/>
         </methods>
       </class> <!-- sm.api.test.SMServiceTest -->
     </classes>

@@ -36,4 +36,5 @@
 <fullyQualifiedTypeName name="sm.api.pojo.GWRecordsJson"/>
 <fullyQualifiedTypeName name="lombok.Getter"/>
 <fullyQualifiedTypeName name="lombok.Setter"/>
+<fullyQualifiedTypeName name="sm.api.pojo.OutputContainer"/>
 </qualifiedTypeNameHistroy>

@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3036346" started-at="2022-10-01T19:54:20Z" finished-at="2022-10-01T20:44:57Z">
+  <suite name="Default suite" duration-ms="3043474" started-at="2022-10-04T15:38:58Z" finished-at="2022-10-04T16:29:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3036346" started-at="2022-10-01T19:54:20Z" finished-at="2022-10-01T20:44:57Z">
+    <test name="Default test" duration-ms="3043474" started-at="2022-10-04T15:38:58Z" finished-at="2022-10-04T16:29:41Z">
       <class name="sm.api.test.SMServiceTest">
-        <test-method status="PASS" signature="parseGWRecords()[pri:0, instance:sm.api.test.SMServiceTest@48524010]" name="parseGWRecords" duration-ms="297" started-at="2022-10-02T01:24:20Z" finished-at="2022-10-02T01:24:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parseGWRecords -->
-        <test-method status="PASS" signature="GetClubs()[pri:0, instance:sm.api.test.SMServiceTest@48524010]" name="GetClubs" duration-ms="3036018" started-at="2022-10-02T01:24:21Z" finished-at="2022-10-02T02:14:57Z">
+        <test-method status="PASS" signature="GetClubs()[pri:0, instance:sm.api.test.SMServiceTest@48524010]" name="GetClubs" duration-ms="3043459" started-at="2022-10-04T21:08:58Z" finished-at="2022-10-04T21:59:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetClubs -->

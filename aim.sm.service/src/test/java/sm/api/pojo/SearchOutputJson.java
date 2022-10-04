@@ -31,9 +31,9 @@ public class SearchOutputJson {
 	
 	
 	public String display(int index) {
-		String strOutput = "setupId"+setupId +
-				",   setupName"+setupName +
-				",   setupType"+setupType +
+		String strOutput = setupId +
+				setupName +
+				setupType +
 				",   season"+currentSeasonNum +
 				",   Managed-"+isManagedTotal +
 				",   clubName-"+clubName.get(index) +

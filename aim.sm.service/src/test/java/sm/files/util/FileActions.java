@@ -24,6 +24,15 @@ public class FileActions {
 	
 	private String gw_file;
 	private String club_file;
+	private static String output_file=null;
+	
+	public FileActions() {
+		try {
+			output_file= System.getProperty("user.dir")+"/"+FileActions.getFilePath("output").replace("<DTS>", FileActions.getDTS());
+		} catch (IOException | ParseException e) {
+			e.printStackTrace();
+		}
+	}
 	
 	static Properties objProp= new Properties();
 	
@@ -50,7 +59,7 @@ public class FileActions {
 	public static void writeStringToFile(String key,List<String> list)  {
 		try {
 			System.out.println("Adding"+list.size()+" records.");
-			String path=System.getProperty("user.dir")+"/"+FileActions.getFilePath(key).replace("<DTS>", FileActions.getDTS());
+			String path=getOutputPath(key);
 		FileWriter writer = new FileWriter(path,true); 
 		for(String str: list) {
 		  
@@ -62,6 +71,12 @@ public class FileActions {
 		}
 	}
 	
+	public static String getOutputPath(String key) throws FileNotFoundException, IOException, ParseException {
+		if (output_file==null)
+			output_file= System.getProperty("user.dir")+"/"+FileActions.getFilePath(key).replace("<DTS>", FileActions.getDTS());
+		return output_file;
+		
+	}
 	
 	public static String writeJsonToFile(String key,JSONObject jsonObject) throws ParseException, FileNotFoundException, IOException  {
 			String path=System.getProperty("user.dir")+"/"+FileActions.getFilePath(key).replace("<DTS>", FileActions.getDTS());

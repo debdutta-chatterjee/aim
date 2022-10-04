@@ -16,6 +16,7 @@ import io.restassured.response.Response;
 import sm.api.pojo.ClubSearchResponseJson;
 import sm.api.pojo.GWRecordsJson;
 import sm.api.pojo.GWSearchResponseJson;
+import sm.api.pojo.OutputContainer;
 import sm.api.pojo.SearchOutputJson;
 
 
@@ -48,7 +49,7 @@ public class SMServiceTest {
 	}
 	
 	
-	@Test(priority=1)
+	@Test(priority=1,enabled=false)
 	public void parseGWRecords() {
 		path="./output/gw_records-2022-10-01_214741.json";
 		objGWRecords=SMTestHelper.deserializeJson(path, GWRecordsJson.class);
@@ -89,13 +90,16 @@ public class SMServiceTest {
 		
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2,enabled=true)
 	public void GetClubs() {
 		
-		Set<SearchOutputJson> outputSet = new HashSet<SearchOutputJson>();
-		List<String> resultList= new ArrayList<>();
+		path="./output/gw_records-2022-10-01_214741.json";
+		objGWRecords=SMTestHelper.deserializeJson(path, GWRecordsJson.class);
+		
+		List<SearchOutputJson> outputSet = new ArrayList<SearchOutputJson>();
+		
 		Response response=null;
-		double thresold= 1200;
+		double thresold= 750;
 		int countTracker=0;
 		SearchOutputJson output =null;
 		
@@ -120,7 +124,7 @@ public class SMServiceTest {
 			System.out.println("outputSets stored at- "+path);
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2,enabled=false)
 	public void FilterClubs() {
 		
 		Set<SearchOutputJson> outputSet = new HashSet<SearchOutputJson>();
@@ -131,9 +135,9 @@ public class SMServiceTest {
 		SearchOutputJson output =null;
 		
 		path="./output/club_records-2022-10-02_021457.json";
-		List<GWSearchResponseJson> lstGWRecords=SMTestHelper.deserializeJson(path, List<GWSearchResponseJson.class);
+		OutputContainer objOutputContainer=SMTestHelper.deserializeJson(path, OutputContainer.class);
 		
-			for(GWSearchResponseJson objGWResponse:objGWRecords.getGwrecord()) {
+			for(GWSearchResponseJson objGWResponse:objOutputContainer.getLst_GWSearchResponseJson()) {
 				output = SMTestHelper.getGWData(objGWResponse);
 				outputSet.add(output);
 				//System.out.println("Scanned-"+setupId);
