@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;sm.api.pojo.GWSetup&apos; to &apos;Enum_GWSetup&apos;&#x0D;&#x0A;- Original project: &apos;aim.sm.service&apos;&#x0D;&#x0A;- Original element: &apos;sm.api.pojo.GWSetup&apos;&#x0D;&#x0A;- Renamed element: &apos;sm.api.pojo.Enum_GWSetup&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;GWSetup&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java&lt;sm.api.pojo{GWSetup.java[GWSetup" matchStrategy="1" name="Enum_GWSetup" qualified="false" references="true" similarDeclarations="false" stamp="1664949767037" textual="false" version="1.0"/>
+</session>

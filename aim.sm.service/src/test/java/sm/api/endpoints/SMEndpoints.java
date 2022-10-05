@@ -4,9 +4,9 @@ public class SMEndpoints {
 	
 	private static String  baseUri= "https://www.soccermanager.com";
 	
-	public static String advGWSearch(int season,int clubsTaken,int offset) {
+	public static String advGWSearch(int season,int clubsTaken,int offset,int setuptypeid,int cdid) {
 		
-		return "/club-add-ajax.php?action=sgwadv&setuptypeid=1&cdid=21&access=1&season="+season+"&clubstaken="+clubsTaken+"&offset="+offset;
+		return "/club-add-ajax.php?action=sgwadv&setuptypeid="+setuptypeid+"&cdid="+cdid+"&access=1&season="+season+"&clubstaken="+clubsTaken+"&offset="+offset;
 	}
 	
 	public static String getBaseUri() {return baseUri;}

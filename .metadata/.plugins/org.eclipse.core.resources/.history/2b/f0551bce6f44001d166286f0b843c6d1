@@ -1,0 +1,8 @@
+package sm.api.pojo;
+
+public enum GWSetup {
+	Englad=1,
+	Spain=5516;
+			
+			
+}

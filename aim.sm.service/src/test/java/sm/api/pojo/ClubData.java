@@ -11,6 +11,6 @@ import lombok.ToString;
 
 @ToString @Getter @Setter
 public class ClubData{
-	@JsonAlias({ "ENG", "SPAIN" })
+	@JsonAlias({ "ENG", "ESP" })
     public DivisionContainer divisionContainer;
 }

@@ -31,17 +31,16 @@ public class SearchOutputJson {
 	
 	
 	public String display(int index) {
-		String strOutput = setupId +
-				setupName +
-				setupType +
-				",   season"+currentSeasonNum +
-				",   Managed-"+isManagedTotal +
-				",   clubName-"+clubName.get(index) +
-				",   clubBalance-"+clubBalance.get(index) +
-				",   clubValue-"+clubValue.get(index) +
-				",   playerCount-"+playerCount.get(index) +
-				",   clubAveRating-"+clubAveRating.get(index) +
-				",   isManaged-"+isManaged.get(index);
+		String strOutput = 	setupName +
+				",  "+setupType +
+				", season"+currentSeasonNum +
+				", Managed-"+isManagedTotal +
+				", "+clubName.get(index) +
+				", clubBalance-"+clubBalance.get(index) +
+				", clubValue-"+clubValue.get(index) +
+				", playerCount-"+playerCount.get(index) +
+				", clubAveRating-"+clubAveRating.get(index) +
+				", isManaged-"+isManaged.get(index);
 		
 		
 		String strOutputFile = setupId +

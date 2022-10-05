@@ -11,6 +11,6 @@ import lombok.ToString;
 
 @ToString @Getter @Setter
 public class Division{
-	@JsonAlias({ "ENG", "SPAIN" })
+	@JsonAlias({ "ENG", "ESP" })
     public ArrayList<Integer> division;
 }

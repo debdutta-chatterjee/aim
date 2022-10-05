@@ -1,0 +1,23 @@
+package sm.api.pojo;
+
+public enum Enum_GWSetup {
+	England(1,21),
+	Spain(5516,0);
+			
+	private int numVal;
+	private int cdid;
+
+	Enum_GWSetup(int numVal,int cdid) {
+        this.numVal = numVal;
+        this.cdid = cdid;
+    }		
+	
+	public int getNumVal() {
+        return numVal;
+    }
+	
+	public int getCdid() {
+        return cdid;
+    }
+	
+}

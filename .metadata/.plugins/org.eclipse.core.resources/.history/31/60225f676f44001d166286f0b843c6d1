@@ -1,0 +1,5 @@
+package sm.api.pojo;
+
+public enum GWSetup {
+
+}

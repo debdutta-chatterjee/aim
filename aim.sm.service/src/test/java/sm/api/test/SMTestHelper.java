@@ -25,9 +25,10 @@ import sm.files.util.FileActions;
 
 public class SMTestHelper {
 	
-	public static Response getGameDataResponse(int season,int clubsTaken,int offset){
+	public static Response getGameDataResponse(int season,int clubsTaken,int offset,int setuptypeid,int cdid){
 		
-		String endpoint = SMEndpoints.advGWSearch(season, clubsTaken, offset);
+		String endpoint = SMEndpoints.advGWSearch(season, clubsTaken, offset,setuptypeid,cdid);
+		//System.out.println(endpoint);
 		return APIRequest.getRequest(SMEndpoints.getBaseUri(), WebServiceUtil.getCookie(), endpoint);
 	}
 	

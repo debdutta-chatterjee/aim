@@ -16,6 +16,7 @@ import io.restassured.response.Response;
 import sm.api.pojo.ClubSearchResponseJson;
 import sm.api.pojo.GWRecordsJson;
 import sm.api.pojo.GWSearchResponseJson;
+import sm.api.pojo.Enum_GWSetup;
 import sm.api.pojo.OutputContainer;
 import sm.api.pojo.SearchOutputJson;
 
@@ -25,7 +26,7 @@ public class SMServiceTest {
 	static String path;
 	GWRecordsJson objGWRecords=null;
 	
-	@Test(enabled=false)
+	@Test(priority=0,enabled=false)
 	public void storeAllGameworld() {
 		
 		Set<Integer> setSetupId = new HashSet<Integer>();
@@ -35,13 +36,14 @@ public class SMServiceTest {
 			for(int offset=0;offset<=offsetLimit;offset=offset+20) {
 				
 				System.out.println("OFFSET-"+offset);
-				Response response= SMTestHelper.getGameDataResponse(0,0,offset);
 				
+				Response response= SMTestHelper.getGameDataResponse(0,0,offset,Enum_GWSetup.Spain.getNumVal(),Enum_GWSetup.Spain.getCdid());
+				//System.out.println(response.asString());
 				Assert.assertEquals(response.statusCode(), HttpStatus.SC_OK,"Request Failed");
 				ClubSearchResponseJson objResponse=response.as(ClubSearchResponseJson.class);
 				setSetupId.addAll(objResponse.getSearchResults().stream().map(p -> p.getSetupId()).collect(Collectors.toSet()));
 			}
-		} catch (Exception e) {}
+		} catch (Exception e) {e.printStackTrace();}
 		
 		System.out.println("Record Count-"+setSetupId.size());
 		path=SMTestHelper.writeJson("gw_records", setSetupId);
@@ -52,6 +54,7 @@ public class SMServiceTest {
 	@Test(priority=1,enabled=false)
 	public void parseGWRecords() {
 		path="./output/gw_records-2022-10-01_214741.json";
+		path="./output/ESP_gw_records-2022-10-05_113722.json"; //spain
 		objGWRecords=SMTestHelper.deserializeJson(path, GWRecordsJson.class);
 
 		System.out.println("GW size-"+objGWRecords.getGwrecord().size());
@@ -71,7 +74,7 @@ public class SMServiceTest {
 		
 		Set<SearchOutputJson> outputSet = new HashSet<SearchOutputJson>();
 		
-		Response response= SMTestHelper.getGameDataResponse(0,0,0);
+		Response response= SMTestHelper.getGameDataResponse(0,0,0,Enum_GWSetup.England.getNumVal(),Enum_GWSetup.Spain.getCdid());
 		Assert.assertEquals(response.statusCode(), HttpStatus.SC_OK,"Request Failed");
 		ClubSearchResponseJson objResponse=response.as(ClubSearchResponseJson.class);
 		
@@ -93,13 +96,14 @@ public class SMServiceTest {
 	@Test(priority=2,enabled=true)
 	public void GetClubs() {
 		
-		path="./output/gw_records-2022-10-01_214741.json";
+		path="./output/ENG_gw_records-2022-10-05_112010.json";
+		//path="./output/ESP_gw_records-2022-10-05_113722.json"; //spain
 		objGWRecords=SMTestHelper.deserializeJson(path, GWRecordsJson.class);
 		
 		List<SearchOutputJson> outputSet = new ArrayList<SearchOutputJson>();
 		
 		Response response=null;
-		double thresold= 750;
+		double thresold= 600;
 		int countTracker=0;
 		SearchOutputJson output =null;
 		

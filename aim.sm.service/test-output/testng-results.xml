@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3043474" started-at="2022-10-04T15:38:58Z" finished-at="2022-10-04T16:29:41Z">
+  <suite name="Default suite" duration-ms="3040648" started-at="2022-10-05T06:58:12Z" finished-at="2022-10-05T07:48:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3043474" started-at="2022-10-04T15:38:58Z" finished-at="2022-10-04T16:29:41Z">
+    <test name="Default test" duration-ms="3040648" started-at="2022-10-05T06:58:12Z" finished-at="2022-10-05T07:48:53Z">
       <class name="sm.api.test.SMServiceTest">
-        <test-method status="PASS" signature="GetClubs()[pri:0, instance:sm.api.test.SMServiceTest@48524010]" name="GetClubs" duration-ms="3043459" started-at="2022-10-04T21:08:58Z" finished-at="2022-10-04T21:59:41Z">
+        <test-method status="PASS" signature="GetClubs()[pri:0, instance:sm.api.test.SMServiceTest@48524010]" name="GetClubs" duration-ms="3040632" started-at="2022-10-05T12:28:12Z" finished-at="2022-10-05T13:18:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetClubs -->

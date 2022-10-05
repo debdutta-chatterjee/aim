@@ -1,0 +1,16 @@
+package sm.api.pojo;
+
+public enum Enum_GWSetup {
+	England(1),
+	Spain(5516);
+			
+	private int numVal;
+
+	Enum_GWSetup(int numVal) {
+        this.numVal = numVal;
+    }		
+	
+	public int getNumVal() {
+        return numVal;
+    }
+}
